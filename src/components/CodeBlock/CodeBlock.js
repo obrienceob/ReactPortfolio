@@ -9,10 +9,10 @@ class CodeBlock extends Component {
                 {context => (
                     <div className="container">
                         <div className="headerLine">
-                            <h3 className="bodyHeader">Code</h3>
+                            <h3 className="bodyHeader">Projects</h3>
                         </div>
                         <div className="cardWrapper">
-                            <a href="https://fathomless-dawn-44103.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/obrienceob/BookSearch" target="_blank" rel="noopener noreferrer">
                                 <div className="card homeCard grow">
                                     <img className="cardImage" src={context[0].image} alt="Project One: Google Books Search" />
                                     <div className="cardText">
@@ -22,21 +22,21 @@ class CodeBlock extends Component {
                                 </div>
 
                             </a>
-                            <a href="https://github.com/jshuang2/react-clicky-game" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/obrienceob/TechBlog" target="_blank" rel="noopener noreferrer">
                                 <div className="card homeCard grow">
-                                    <img className="cardImage" src={context[1].image} alt="Project Two: Game of Thrones Memory" />
+                                    <img className="cardImage" src={context[1].image} alt="Project Two: Tech Blog" />
                                     <div className="cardText">
-                                        <p className="cardName">Game of Thrones Memory</p>
-                                        <p className="cardTags">React</p>
+                                        <p className="cardName">Tech Blog</p>
+                                        <p className="cardTags">MVC, SQL, Hanlebars, JS</p>
                                     </div>
                                 </div>
                             </a>
-                            <a href="https://github.com/jshuang2/MongoWebScraper" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/obrienceob/Employee-Directory" target="_blank" rel="noopener noreferrer">
                                 <div className="card homeCard grow">
-                                    <img className="cardImage" src={context[2].image} alt="Project Three: Mongo Web Scraper" />
+                                    <img className="cardImage" src={context[2].image} alt="Project Three: Employee Directory" />
                                     <div className="cardText">
-                                        <p className="cardName">Portfolio Website</p>
-                                        <p className="cardTags">React, Hooks, Context API</p>
+                                        <p className="cardName">Employee Directory</p>
+                                        <p className="cardTags">React, API, Bootstrap</p>
                                     </div>
                                 </div>
                             </a>

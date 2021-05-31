@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from "../components/Header/Header";
 import HomeJumbotron from "../components/HomeJumbotron/HomeJumbotron";
 import CodeBlock from "../components/CodeBlock/CodeBlock";
+import ProjectBlock from "../components/ProjectBlock/ProjectBlock"
 import Footer from "../components/Footer/Footer";
 import projects from "../projects.json";
 import HomeContext from "../context/home-context";
@@ -29,6 +30,7 @@ class Home extends Component {
                     <HomeJumbotron />
                     <HomeContext.Provider value={this.state.projects}>
                         <CodeBlock />
+                        <ProjectBlock />
                     </HomeContext.Provider>
                 </div>
                 <Footer />

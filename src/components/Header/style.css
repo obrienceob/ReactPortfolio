@@ -38,19 +38,6 @@ a {
     margin-left: .6rem;
 }
 
-/* button[aria-expanded="true"] {
-    background-color: red;
-} */
-
-/* .collapse {
-    transform: translateY(50px)
-} */
-
-/* @media screen and (max-width: 600px) {
-    li {
-        
-    }
-} */
 
 .openMenu {
     margin-left: none !important;

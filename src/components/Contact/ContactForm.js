@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import Max from "../../images/Max.jpeg";
 
 export default class ContactForm extends React.Component {
     constructor(props) {
@@ -17,7 +16,6 @@ export default class ContactForm extends React.Component {
             <div id="contactFormJumbotron">
                 <div className="container">
                     <h3 id="contactFormHeader">Let's connect!</h3>
-                    <img src={Max} alt="Max the dog" id="maxPic"></img>
                     <form
                         onSubmit={this.submitForm}
                         action="https://formspree.io/xyyddneo"
