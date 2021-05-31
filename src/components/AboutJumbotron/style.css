@@ -1,0 +1,94 @@
+#aboutMeHeader {
+    text-align: center;
+    padding-top: 3.75rem;
+    font-weight: bold;
+    font-size: 4.25rem;
+ }
+
+.centerText {
+    text-align: center;
+}
+
+#aboutJumbotron {
+    height: 46.25rem;
+    background-color: white;
+    box-shadow: 0 0 0.625rem 0 #636363;
+}
+
+#aboutHeaderContainer {
+    max-width: 35.625rem;
+}
+
+#aboutJumbotronContent {
+    padding-top: 2.5rem;
+    float:left;
+    max-width: 35.625rem;
+}
+
+.aboutHeaderParagraphText {
+    font-size: 1.125rem;
+    line-height: 1.8rem;
+}
+
+.aboutPic {
+    max-width: 25%;
+    box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 0.375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+}
+
+.aboutImagesContainer {
+    width: 1100px;
+}
+
+#mtRainier {
+    transform: translate(250px, -170px);
+    position: relative;
+}
+
+#montana {
+    transform: translate(250px, -50px);
+    position: relative;
+}
+
+@media screen and (min-width: 1203px) {
+    #seattle2 {
+        transform: translate(90px, -130px);
+        position: relative;
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 1203px) {
+    #family {
+        transform: translate(660px, -250px);
+        position: relative;
+    }
+}
+
+
+@media screen and (max-width: 1202px) {
+    #montana, #mtRainier {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 995px) and (max-width: 1202px) {
+    #seattle2 {
+        transform: translate(80px, 60px)
+    }
+
+    #family {
+        transform: translate(80px, 100px)
+    }
+}
+
+@media screen and (max-width: 994px) {
+    #seattle2, #family {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 513px) {
+    #aboutJumbotron {
+        height: 62rem;
+    }
+}

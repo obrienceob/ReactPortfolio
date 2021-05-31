@@ -1,0 +1,65 @@
+[
+  {
+      "id": 1,
+      "name": "Google Books Search",
+      "description": "MongoDB, Express, React, Node",
+      "image": "./images/Googlebooks.jpeg",
+      "link": "https://fathomless-dawn-44103.herokuapp.com/"
+  },
+  {
+      "id": 2,
+      "name": "Game of Thrones Memory",
+      "description": "React",
+      "image": "",
+      "link": "https://github.com/jshuang2/react-clicky-game"
+  },
+  {
+      "id": 3,
+      "name": "Portfolio Website",
+      "description": "React, Hooks, Context API",
+      "image": "",
+      "link": "https://github.com/jshuang2/react-portfolio"
+  },
+  {
+      "id": 4,
+      "name": "Mongo Web Scraper",
+      "description": "MongoDB, JS, Express, Node",
+      "image": "",
+      "link": "https://github.com/jshuang2/MongoWebScraper"
+  },
+  {
+      "id": 5,
+      "name": "Spotifind Me!",
+      "description": "MySQL, JS, Express, Node",
+      "image": "",
+      "link": "https://github.com/eawhite00/Project2"
+  },
+  {
+      "id": 6,
+      "name": "Bamazon",
+      "description": "Node",
+      "image": "",
+      "link": "https://github.com/jshuang2/bamazon"
+  },
+  {
+      "id": 7,
+      "name": "Liri-Node-App",
+      "description": "Node",
+      "image": "",
+      "link": "https://github.com/jshuang2/liri-node-app"
+  },
+  {
+      "id": 8,
+      "name": "Celebrity-GIPHY-API",
+      "description": "JS, jQuery",
+      "image": "",
+      "link": "https://github.com/jshuang2/Celebrity-GIPHY-API"
+  },
+  {
+      "id": 9,
+      "name": "Train-Scheduler",
+      "description": "JS, Firebase, Moment JS",
+      "image": "",
+      "link": "https://github.com/jshuang2/Train-Scheduler"
+  }
+]

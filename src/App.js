@@ -1,19 +1,25 @@
-import React from "react";
-import Form from "./components/Form";
-import TodoList from "./components/ToDoList";
-import { TodoProvider } from "./utils/GlobalState";
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import NoMatch from "./pages/NoMatch";
 import "./App.css";
 
+export class App extends Component {
 
-function App() {
-  return (
-    <div className="container">
-      <TodoProvider>
-        <Form />
-        <TodoList />
-      </TodoProvider>
-    </div>
-  );
+  render() {
+    return (
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route component={NoMatch} />
+        </Switch>
+      </Router>
+    )
+  }
 }
 
-export default App;
+export default App
